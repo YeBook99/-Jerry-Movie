@@ -22,6 +22,7 @@
 
 ### 🛠 ️Skills
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
 ![MyBatis](https://img.shields.io/badge/MyBatis-0A53A1?style=flat-square&logo=mybatis&logoColor=white)
 ![JSP](https://img.shields.io/badge/JSP-FFB900?style=flat-square&logo=apache-tomcat&logoColor=white)
