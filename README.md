@@ -6,7 +6,7 @@
 
 <br>
 
-> Back-End Develop
+> Full-Stack
 > <br>
 > 2024.07.24 ~ 2024.08.21
 
@@ -40,19 +40,28 @@
 ### 👩‍💻 My Role
 #### 👤 인증 및 계정 관리
 ##### 1. 로그인
-- 
+- DB에서 일치하는 아이디, 비밀번호 매치 후 로그인
+- 로그인한 계정이 관리자 계정일 시 관리자 페이지로 연결
 ##### 2. 소셜 로그인
-- 
+- 구글은 사용자의 전화번호를 제공하지 않아 구글 로그인 시 사용자의 이메일을 DB의 이메일과 매치하여 로그인
+- 네이버, 카카오 로그인 시 사용자의 전화번호, 이메일을 DB의 전화번호, 이메일과 매치하여 로그인
 ##### 3. 회원가입
-- 
+- AJAX를 활용한 아이디, 이메일 입력 시 실시간 중복 확인 문구 노출
+- 네이버 SMTP 프로토콜을 통한 이메일 인증 구현
 ##### 4. 아이디 찾기 / 비밀번호 재설정
-- 
+- 1차로 입력한 정보를 DB와 모두 일치하는지 여부 확인
+- 아이디 찾기 시 1차 DB 검증 후 아이디의 일부만 조회 가능
+- 전체 아이디 조회 시 네이버 SMTP 프로토콜을 통하여 메일로 전체 아이디 발송
+- 비밀번호 재설정 시 네이버 SMTP 프로토콜을 통한 이메일 인증 진행
+- 이메일 인증 완료 시 비밀번호 재설정 가능
 
 #### 🖥️ Front-End
 ##### - 메인 페이지 UI
 <img src="etc/메인UI_1.png" alt="Project Logo" style="width: 100%; height: auto;" />
 <img src="etc/메인UI_2.png" alt="Project Logo" style="width: 100%; height: auto;" />
 <img src="etc/메인UI_3.png" alt="Project Logo" style="width: 100%; height: auto;" />
+
+---
 
 ##### - 로그인 페이지 UI
 <img src="etc/로그인UI.png" alt="Project Logo" style="width: 100%; height: auto;" />
